@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOGIN SITE</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title">
+        <span>Halaman Login</span></div>
+    <form action="#">
+      <div class="row">
+        <input type="text" placeholder="e.g. jusachio@gmail.com" required />
+      </div>
+      <div class="row">
+        <input type="password" placeholder="Enter Password" required />
+      </div>
+      <div class="pass"><a href="#">Forgot Password?</a></div>
+      <div class="row button">
+        <input type="submit" value="Login" />
+      </div>
+      <div class="signup-link">Buat akun? <a href="#">Daftar disini</a></div>
+      <button onclick="gantiBody()">Dark mode</button>
+      <button onclick="gantiBody2()">Light mode</button>
+    </form>
+    <footer>
+    "<span>If you love someone, show them</span>"
+  </footer>
+  </div>
+</body>
+ <script>
+
+        function gantiBody(){
+            document.body.style.backgroundColor = "black";
+         }
+         
+        function gantiBody2(){
+            document.body.style.backgroundColor = "#FFFFFF";
+         }
+         </script>
+</html>
